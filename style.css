@@ -1,0 +1,49 @@
+body{
+    background:  #283C4F;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 360px;
+    width: 100%;
+}
+
+.game-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 6px;
+    background: #009BFF;
+}
+
+.game-cell{
+    max-width: 115px;
+    width: 100%;
+    height: 115px;
+    background:  #283C4F;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-size: 88px;
+}
+
+.title{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 25px;
+    font-family: Robot, sans-serif;
+}
+
+
+
